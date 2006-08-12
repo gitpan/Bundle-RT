@@ -1,6 +1,6 @@
 package Bundle::RT;
 
-$VERSION = '0.030402';
+$VERSION = '0.030601';
 
 1;
 
@@ -18,37 +18,37 @@ will tell the CPAN.pm module to install most of RT's dependent modules.
 
 =head1 CONTENTS
 
-Digest::MD5
+Digest::MD5 2.27
 
-DBI
+DBI 1.37
 
 Test::Inline
 
-Class::ReturnValue
+Class::ReturnValue 0.40
 
-DBIx::SearchBuilder
+DBIx::SearchBuilder 1.39
 
 Text::Template
 
-File::Spec
+File::Spec 0.8
 
 HTML::Entities
 
-HTML::Scrubber
+HTML::Scrubber 0.08
 
 Net::Domain
 
-Log::Dispatch
+Log::Dispatch 2.0
 
-Locale::Maketext
+Locale::Maketext 1.06
 
-Locale::Maketext::Lexicon
+Locale::Maketext::Lexicon 0.32
 
 Locale::Maketext::Fuzzy
 
-MIME::Entity
+MIME::Entity 5.108
 
-Mail::Mailer
+Mail::Mailer 1.57
 
 Net::SMTP
 
@@ -64,9 +64,9 @@ Term::ReadKey
 
 Text::Autoformat
 
-Text::Quoted
+Text::Quoted 1.3
 
-Tree::Simple
+Tree::Simple 1.04
 
 Scalar::Util
 
@@ -74,15 +74,17 @@ Module::Versions::Report
 
 Cache::Simple::TimedExpiry
 
-XML::Simple
+UNIVERSAL::require
 
-Params::Validate
+Calendar::Simple
+
+Params::Validate 0.02
 
 Cache::Cache
 
-Exception::Class
+Exception::Class 1.14
 
-HTML::Mason
+HTML::Mason 1.23
 
 MLDBM
 
@@ -90,25 +92,31 @@ Errno
 
 FreezeThaw
 
-Digest::MD5
+CGI::Cookie 1.20
 
-CGI::Cookie
+Storable 2.08
 
-Storable
+Apache::Session 1.53
 
-Apache::Session
+XML::RSS 1.05
 
-XML::RSS
+HTTP::Server::Simple 0.07
 
-HTTP::Server::Simple
+HTTP::Server::Simple::Mason 0.09
 
-HTTP::Server::Simple::Mason
+GD
+
+GD::Graph
+
+GD::Text
+
+Text::WikiFormat 0.76
 
 HTML::TreeBuilder
 
 HTML::FormatText
 
-Getopt::Long
+Getopt::Long 2.24
 
 LWP::UserAgent
 
@@ -127,8 +135,10 @@ WWW::Mechanize
 
 Test::WWW::Mechanize
 
+CGI 2.92
+
 Module::Refresh
 
-CGI
+XML::Simple
 
 =cut
